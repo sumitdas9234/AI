@@ -1,0 +1,62 @@
+{
+  "graph": [
+    {
+      "name": "Entrance",
+      "neighbours": [
+        "Energy House"
+      ]
+    },
+    {
+      "name": "Energy House",
+      "neighbours": [
+        "Block I"
+      ]
+    },
+    {
+      "name": "Block I",
+      "neighbours": [
+        "Block II",
+        "Block IV"
+      ]
+    },
+    {
+      "name": "Block II",
+      "neighbours": [
+        "Block III"
+      ]
+    },
+    {
+      "name": "Block IV",
+      "neighbours": [
+        "Block V",
+        "Food Court"
+      ]
+    },
+    {
+      "name": "Block III",
+      "neighbours": [
+        "Cafeteria"
+      ]
+    },
+    {
+      "name": "Block V",
+      "neighbours": [
+        "Food Court",
+        "Cafeteria"
+      ]
+    },
+    {
+      "name": "Food Court",
+      "neighbours": [
+        "Block V"
+      ]
+    },
+    {
+      "name": "Cafeteria",
+      "neighbours": [
+        "Block III",
+        "Block V"
+      ]
+    }
+  ]
+}
